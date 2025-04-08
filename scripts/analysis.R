@@ -6,7 +6,7 @@ my_plot <- plot_scatter(
    x = 'disp', 
    y = 'cyl', 
    group = 'gear', 
-   data = mtcars
+   data = df
    )
 
 
