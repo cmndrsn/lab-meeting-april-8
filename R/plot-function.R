@@ -13,13 +13,13 @@
 #' @export
 #'
 #' @examples
-#' plot_scatter(
+#' plotScatter(
 #'   x = 'disp', 
 #'   y = 'cyl', 
 #'   group = 'gear', 
 #'   data = mtcars
 #'   )
-plot_scatter <- function(
+plotScatter <- function(
     x,
     y,
     group,
