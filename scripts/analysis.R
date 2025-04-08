@@ -8,7 +8,7 @@ load("data/new_data.Rda")
 my_df <- mtcars
 
 # run plot function
-my_plot <- plot_scatter(
+my_plot <- plotScatter(
    x = 'disp', 
    y = 'cyl', 
    group = 'gear', 
