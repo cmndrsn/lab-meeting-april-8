@@ -1,12 +1,18 @@
+# source plotting function
+source("R/plot-function.R")
+
 # load in data
-df <- mtcars
+load("data/new_data.Rda")
+
+# assign data to variable
+my_df <- mtcars
 
 # run plot function
 my_plot <- plot_scatter(
    x = 'disp', 
    y = 'cyl', 
    group = 'gear', 
-   data = df
+   data = my_df
    )
 
 
